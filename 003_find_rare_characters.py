@@ -1231,5 +1231,5 @@ def filter_strings(data):
     return "".join(out)
 
 print filter_strings(data)
-# sollution is "equality", which can be made out from the found characters in the string above
+# solution is "equality", which can be made out from the found characters in the string above
         
