@@ -1225,8 +1225,9 @@ $#_}*!(+([_&%{^&[([%]}*^{{([@+@]@*&@_!]_+([(#&!]]#$$#]@#{_]][_{@]{*))$({%}_![@$]
 
 def filter_strings(data):
     out = []
-    for l in string.ascii_lowercase:
-        out.append(l)
+    for l in string.letters:
+        if l in list(data):
+            out.append(l)
     return "".join(out)
 
 print filter_strings(data)
