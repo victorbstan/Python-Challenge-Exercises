@@ -49,7 +49,7 @@ def simple_decode(code, alpha_list, shift):
 data_list = list(data)
 
 # get a list of lowercase alphabet characters
-alpha_list = string.ascii_lowercase
+alpha_list = list(string.ascii_lowercase)
 
 # decode the data (the long way)
 print simple_decode(data, alpha_list, 2)
